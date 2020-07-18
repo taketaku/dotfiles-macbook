@@ -1,0 +1,11 @@
+
+brew "mas"
+brew "tmux"
+cask "alfred"
+cask "docker"
+cask "firefox"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "iterm2"
+cask "karabiner-elements"
+cask "visual-studio-code"
