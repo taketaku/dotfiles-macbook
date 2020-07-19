@@ -1,0 +1,116 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    // #####################################################
+    // window 分割
+    // #####################################################
+    {
+        "key": "ctrl+capslock ctrl+y",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+capslock ctrl+x",
+        "command": "workbench.action.splitEditorDown"
+    },
+    // #####################################################
+    // Close Window/Editor Group
+    // #####################################################
+    {
+        "key": "ctrl+capslock ctrl+q",
+        "command": "workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+capslock ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    // #####################################################
+    // Side Bar 間移動
+    // #####################################################
+    {
+        "key": "t t",
+        "command": "workbench.action.focusSideBar",
+        "when": "editorFocus && vim.active && !sideBarFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "t t",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "sideBarFocus && !inputFocus"
+    },
+    // #####################################################
+    // Editor Group 間移動 
+    // #####################################################
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.focusBelowGroup"
+    },
+    // with ctrl+capslock
+    {
+        "key": "ctrl+capslock ctrl+h",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+capslock ctrl+l",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+capslock ctrl+k",
+        "command": "workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "ctrl+capslock ctrl+j",
+        "command": "workbench.action.focusBelowGroup"
+    },
+    // #####################################################
+    // Editor Group 内移動 
+    // #####################################################
+    {
+        "key": "alt+j",
+        "command": "workbench.action.previousEditorInGroup"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    // #####################################################
+    // Zen mode
+    // #####################################################
+    {
+        "key": "ctrl+enter",
+        "command": "workbench.action.toggleZenMode"
+    }
+]

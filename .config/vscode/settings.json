@@ -1,0 +1,49 @@
+{
+  "vim.useSystemClipboard": true,
+  "go.formatTool": "goimports",
+  "window.zoomLevel": 1,
+  "sql-formatter.dialect": "pl/sql",
+  "go.useLanguageServer": true,
+  "workbench.editor.closeEmptyGroups": false,
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.sideBar.location": "left",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.tabSize": 4
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vetur.useWorkspaceDependencies": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.nuxt/**": true,
+    "**/.dist/**": true,
+    "**/node_modules/*/**": true
+  },
+  "editor.tabSize": 2,
+  "terraform.indexing": {
+    "enabled": false,
+    "liveIndexing": false,
+    "delay": 500,
+    "exclude": [
+      ".terraform/**/*",
+      "**/.terraform/**/*"
+    ]
+  },
+  "terraform.languageServer": {
+    "enabled": true,
+    "args": []
+  },
+  "editor.formatOnSave": true
+}

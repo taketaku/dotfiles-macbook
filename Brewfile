@@ -9,3 +9,5 @@ cask "google-japanese-ime"
 cask "iterm2"
 cask "karabiner-elements"
 cask "visual-studio-code"
+
+mas "Slack", id: 803453959
