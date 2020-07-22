@@ -45,5 +45,6 @@
     "enabled": true,
     "args": []
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
 }
