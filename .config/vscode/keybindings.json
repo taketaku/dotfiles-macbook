@@ -1,50 +1,30 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     // #####################################################
-    // window 分割
+    // unbind
     // #####################################################
     {
-        "key": "ctrl+capslock ctrl+y",
-        "command": "workbench.action.splitEditor"
-    },
-    {
-        "key": "ctrl+y",
-        "command": "workbench.action.splitEditor"
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel"
     },
     {
         "key": "ctrl+\\",
         "command": "-workbench.action.splitEditor"
     },
     {
-        "key": "ctrl+x",
-        "command": "workbench.action.splitEditorDown"
-    },
-    {
-        "key": "ctrl+capslock ctrl+x",
-        "command": "workbench.action.splitEditorDown"
+        "key": "cmd+t",
+        "command": "-workbench.action.showAllSymbols"
     },
     // #####################################################
-    // Close Window/Editor Group
+    // window 分割
     // #####################################################
     {
-        "key": "ctrl+capslock ctrl+q",
-        "command": "workbench.action.closeWindow"
+        "key": "ctrl+a y",
+        "command": "workbench.action.splitEditor"
     },
     {
-        "key": "ctrl+q",
-        "command": "workbench.action.closeWindow"
-    },
-    {
-        "key": "ctrl+shift+w",
-        "command": "-workbench.action.closeWindow"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "workbench.action.closeActiveEditor"
-    },
-    {
-        "key": "ctrl+capslock ctrl+w",
-        "command": "workbench.action.closeActiveEditor"
+        "key": "ctrl+a x",
+        "command": "workbench.action.splitEditorDown"
     },
     // #####################################################
     // Side Bar 間移動
@@ -78,39 +58,29 @@
         "key": "ctrl+j",
         "command": "workbench.action.focusBelowGroup"
     },
-    // with ctrl+capslock
     {
-        "key": "ctrl+capslock ctrl+h",
-        "command": "workbench.action.focusLeftGroup"
-    },
-    {
-        "key": "ctrl+capslock ctrl+l",
-        "command": "workbench.action.focusRightGroup"
-    },
-    {
-        "key": "ctrl+capslock ctrl+k",
-        "command": "workbench.action.focusAboveGroup"
-    },
-    {
-        "key": "ctrl+capslock ctrl+j",
-        "command": "workbench.action.focusBelowGroup"
+        "key": "cmd+t",
+        "command": "workbench.action.togglePanel"
     },
     // #####################################################
     // Editor Group 内移動 
     // #####################################################
     {
-        "key": "alt+j",
+        "key": "cmd+j",
         "command": "workbench.action.previousEditorInGroup"
     },
     {
-        "key": "alt+k",
+        "key": "cmd+k",
         "command": "workbench.action.nextEditorInGroup"
     },
     // #####################################################
     // Zen mode
     // #####################################################
     {
-        "key": "ctrl+enter",
+        "key": "cmd+enter",
         "command": "workbench.action.toggleZenMode"
-    }
+    },
+    // #####################################################
+    // ↓↓TODO refa 設定を変えると自動で追加される
+    // #####################################################
 ]
