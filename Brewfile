@@ -14,6 +14,8 @@ cask "iterm2"
 cask "karabiner-elements"
 cask "visual-studio-code"
 cask "zoomus"
+cask "discord"
+cask "zeplin"
 
 mas "Slack", id: 803453959
 mas "LINE", id: 539883307

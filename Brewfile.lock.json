@@ -161,6 +161,18 @@
         "options": {
           "full_name": "zoomus"
         }
+      },
+      "discord": {
+        "version": "0.0.257",
+        "options": {
+          "full_name": "discord"
+        }
+      },
+      "zeplin": {
+        "version": "3.7,951",
+        "options": {
+          "full_name": "zeplin"
+        }
       }
     },
     "mas": {
@@ -175,6 +187,10 @@
       "Kindle": {
         "id": "405399194",
         "version": "1.29.0"
+      },
+      "Key Codes": {
+        "id": "414568915",
+        "version": "2.1"
       }
     }
   },
