@@ -162,6 +162,12 @@
           "full_name": "zoomus"
         }
       },
+      "key-codes": {
+        "version": "2.1",
+        "options": {
+          "full_name": "key-codes"
+        }
+      },
       "discord": {
         "version": "0.0.257",
         "options": {
