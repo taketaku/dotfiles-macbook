@@ -46,5 +46,17 @@
     "args": []
   },
   "editor.formatOnSave": true,
-  "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  }
 }
