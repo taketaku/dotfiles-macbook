@@ -58,5 +58,7 @@
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
-  }
+  },
+  "dart.flutterSdkPath": "/Users/tt/flutter",
+  "dart.openDevTools": "flutter"
 }
