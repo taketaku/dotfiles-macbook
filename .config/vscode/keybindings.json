@@ -81,6 +81,24 @@
         "command": "workbench.action.toggleZenMode"
     },
     // #####################################################
+    // Intellisense Code completion: Suggestion 移動
+    // #####################################################
+    {
+        "key": "tab",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "shift+tab",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "shift+space",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    // #####################################################
     // ↓↓TODO refa 設定を変えると自動で追加される
     // #####################################################
 ]
