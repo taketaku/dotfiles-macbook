@@ -15,6 +15,11 @@
         "key": "cmd+t",
         "command": "-workbench.action.showAllSymbols"
     },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
     // #####################################################
     // window 分割
     // #####################################################
@@ -97,6 +102,14 @@
         "key": "shift+space",
         "command": "editor.action.triggerSuggest",
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    // #####################################################
+    // InFilesPicker: file search suggestion 移動
+    // #####################################################
+    {
+        "key": "tab",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
     },
     // #####################################################
     // ↓↓TODO refa 設定を変えると自動で追加される
