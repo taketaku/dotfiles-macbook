@@ -45,7 +45,6 @@
     "enabled": true,
     "args": []
   },
-  "editor.formatOnSave": true,
   "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
   "[dart]": {
     "editor.formatOnSave": true,
@@ -60,5 +59,6 @@
     "editor.wordBasedSuggestions": false
   },
   "dart.flutterSdkPath": "/Users/tt/flutter",
-  "dart.openDevTools": "flutter"
+  "dart.openDevTools": "flutter",
+  "editor.formatOnSave": true
 }
