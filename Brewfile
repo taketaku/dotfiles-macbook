@@ -1,9 +1,12 @@
+# Run brew bundle
+tap "heroku/brew"
 
 brew "mas"
 brew "tmux"
 brew "fish"
 brew "peco"
 brew "anyenv"
+brew "heroku"
 
 cask "alfred"
 cask "docker"
