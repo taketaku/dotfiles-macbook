@@ -2,7 +2,7 @@
   "title": "Modify Chrome App Keybind",
   "rules": [
     {
-      "description": "⌘ + K To Next Tab",
+      "description": "[Chrome]⌘ + K To Next Tab",
       "manipulators": [
         {
           "conditions": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "description": "⌘ + J To Previous Tab",
+      "description": "[Chrome]⌘ + J To Previous Tab",
       "manipulators": [
         {
           "conditions": [
