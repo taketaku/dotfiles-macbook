@@ -1,8 +1,8 @@
 {
-  "title": "Modify Edge App Keybind",
+  "title": "Modify Edge Browser Keybind",
   "rules": [
     {
-      "description": "[Edge]⌘ + K To Next Tab",
+      "description": "[Edge]⌘ + K To Next Tab/⌘ + J To Previous Tab",
       "manipulators": [
         {
           "conditions": [
@@ -33,12 +33,7 @@
             }
           ],
           "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "[Edge]⌘ + J To Previous Tab",
-      "manipulators": [
+        },
         {
           "conditions": [
             {
