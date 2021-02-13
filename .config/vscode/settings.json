@@ -59,6 +59,5 @@
     "editor.wordBasedSuggestions": false
   },
   "dart.flutterSdkPath": "/Users/tt/flutter",
-  "dart.openDevTools": "flutter",
-  "editor.formatOnSave": true
+  "dart.openDevTools": "flutter"
 }
