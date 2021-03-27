@@ -1,117 +1,130 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    // #####################################################
-    // unbind
-    // #####################################################
-    {
-        "key": "cmd+j",
-        "command": "-workbench.action.togglePanel"
-    },
-    {
-        "key": "ctrl+\\",
-        "command": "-workbench.action.splitEditor"
-    },
-    {
-        "key": "cmd+t",
-        "command": "-workbench.action.showAllSymbols"
-    },
-    {
-        "key": "cmd+p",
-        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
-        "when": "inFilesPicker && inQuickOpen"
-    },
-    // #####################################################
-    // window 分割
-    // #####################################################
-    {
-        "key": "ctrl+a y",
-        "command": "workbench.action.splitEditor"
-    },
-    {
-        "key": "ctrl+a x",
-        "command": "workbench.action.splitEditorDown"
-    },
-    // #####################################################
-    // Side Bar 間移動
-    // #####################################################
-    {
-        "key": "t t",
-        "command": "workbench.action.focusSideBar",
-        "when": "editorFocus && vim.active && !sideBarFocus && vim.mode == 'Normal'"
-    },
-    {
-        "key": "t t",
-        "command": "workbench.action.toggleSidebarVisibility",
-        "when": "sideBarFocus && !inputFocus"
-    },
-    // #####################################################
-    // Editor Group 間移動 
-    // #####################################################
-    {
-        "key": "ctrl+h",
-        "command": "workbench.action.focusLeftGroup"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "workbench.action.focusRightGroup"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "workbench.action.focusAboveGroup"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "workbench.action.focusBelowGroup"
-    },
-    {
-        "key": "cmd+t",
-        "command": "workbench.action.togglePanel"
-    },
-    // #####################################################
-    // Editor Group 内移動 
-    // #####################################################
-    {
-        "key": "cmd+j",
-        "command": "workbench.action.previousEditorInGroup"
-    },
-    {
-        "key": "cmd+k",
-        "command": "workbench.action.nextEditorInGroup"
-    },
-    // #####################################################
-    // Zen mode
-    // #####################################################
-    {
-        "key": "cmd+enter",
-        "command": "workbench.action.toggleZenMode"
-    },
-    // #####################################################
-    // Intellisense Code completion: Suggestion 移動
-    // #####################################################
-    {
-        "key": "tab",
-        "command": "selectNextSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-    },
-    {
-        "key": "shift+tab",
-        "command": "selectPrevSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-    },
-    {
-        "key": "shift+space",
-        "command": "editor.action.triggerSuggest",
-        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
-    },
-    // #####################################################
-    // InFilesPicker: file search suggestion 移動
-    // #####################################################
-    {
-        "key": "tab",
-        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
-        "when": "inFilesPicker && inQuickOpen"
-    },
-    // #####################################################
-    // ↓↓TODO refa 設定を変えると自動で追加される
-    // #####################################################
+  // #####################################################
+  // unbind
+  // #####################################################
+  {
+    "key": "cmd+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+t",
+    "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  // #####################################################
+  // window 分割
+  // #####################################################
+  {
+    "key": "ctrl+a y",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+a x",
+    "command": "workbench.action.splitEditorDown"
+  },
+  // #####################################################
+  // Side Bar 間移動
+  // #####################################################
+  {
+    "key": "t t",
+    "command": "workbench.action.focusSideBar",
+    "when": "editorFocus && vim.active && !sideBarFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "t t",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "sideBarFocus && !inputFocus"
+  },
+  // #####################################################
+  // Editor Group 間移動
+  // #####################################################
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.focusBelowGroup"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.togglePanel"
+  },
+  // #####################################################
+  // Editor Group 内移動
+  // #####################################################
+  {
+    "key": "cmd+j",
+    "command": "workbench.action.previousEditorInGroup"
+  },
+  {
+    "key": "cmd+k",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  // #####################################################
+  // Zen mode
+  // #####################################################
+  {
+    "key": "cmd+enter",
+    "command": "workbench.action.toggleZenMode"
+  },
+  // #####################################################
+  // Intellisense Code completion: Suggestion 移動
+  // #####################################################
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "shift+tab",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "shift+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  // #####################################################
+  // InFilesPicker: file search suggestion 移動
+  // #####################################################
+  {
+    "key": "tab",
+    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  // #####################################################
+  // ↓↓ Go to definision
+  // #####################################################
+  {
+    "key": "ctrl+enter",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  }
+  // #####################################################
+  // ↓↓TODO refa 設定を変えると自動で追加される
+  // #####################################################
 ]
