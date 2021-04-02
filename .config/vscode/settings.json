@@ -63,5 +63,9 @@
   "vscode-neovim.neovimInitVimPaths.darwin": "/Users/tt/.config/nvim/init.vim",
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.useCtrlKeysForInsertMode": false,
-  "vscode-neovim.useCtrlKeysForNormalMode": false
+  "vscode-neovim.useCtrlKeysForNormalMode": false,
+  "editor.scrollBeyondLastLine": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
