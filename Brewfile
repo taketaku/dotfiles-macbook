@@ -26,7 +26,7 @@ cask "zeplin"
 cask "android-studio"
 cask "graphiql"
 
-mas "Slack", id: 803453959
+# mas "Slack", id: 803453959
 # mas "LINE", id: 539883307
 # mas "Kindle", id: 405399194
 # mas "Key Codes", id: 414568915

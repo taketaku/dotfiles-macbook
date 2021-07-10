@@ -37,12 +37,12 @@
   {
     "key": "t t",
     "command": "workbench.action.focusSideBar",
-    "when": "editorFocus && vim.active && !sideBarFocus && vim.mode == 'Normal'"
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
   },
   {
     "key": "t t",
     "command": "workbench.action.toggleSidebarVisibility",
-    "when": "sideBarFocus && !inputFocus"
+    "when": "explorerViewletFocus && !inputFocus"
   },
   // #####################################################
   // Editor Group 間移動
