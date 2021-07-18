@@ -20,6 +20,11 @@
     "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
     "when": "inFilesPicker && inQuickOpen"
   },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
   // #####################################################
   // window 分割
   // #####################################################
@@ -112,19 +117,20 @@
     "when": "inFilesPicker && inQuickOpen"
   },
   // #####################################################
-  // ↓↓ Go to definision
+  // Go to definision
   // #####################################################
   {
     "key": "ctrl+enter",
     "command": "editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
+  // #####################################################
+  // File Explore
+  // #####################################################
   {
-    "key": "f12",
-    "command": "-editor.action.revealDefinition",
-    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    "key": "n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus && !inputFocus"
   }
-  // #####################################################
-  // ↓↓TODO refa 設定を変えると自動で追加される
-  // #####################################################
+
 ]
