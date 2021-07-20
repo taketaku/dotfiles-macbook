@@ -131,6 +131,10 @@
     "key": "n",
     "command": "explorer.newFile",
     "when": "explorerViewletFocus && !inputFocus"
+  },
+  {
+    "key": "d",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus && !inputFocus"
   }
-
 ]
