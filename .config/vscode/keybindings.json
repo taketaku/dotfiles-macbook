@@ -46,6 +46,11 @@
   },
   {
     "key": "t t",
+    "command": "workbench.explorer.fileView.focus",
+    "when": "activeEditorGroupEmpty && !inputFocus"
+  },
+  {
+    "key": "t t",
     "command": "workbench.action.toggleSidebarVisibility",
     "when": "explorerViewletFocus && !inputFocus"
   },
