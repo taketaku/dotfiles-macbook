@@ -26,10 +26,12 @@ cask "discord"
 cask "zeplin"
 cask "android-studio"
 cask "graphiql"
+cask "deepl"
+cask "microsoft-teams"
 
-# mas "Slack", id: 803453959
+mas "Slack", id: 803453959
 # mas "LINE", id: 539883307
-# mas "Kindle", id: 405399194
+mas "Kindle", id: 405399194
 # mas "Key Codes", id: 414568915
 # mas "Xcode", id: 497799835
 # mas "PicGIF", id: 844918735

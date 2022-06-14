@@ -2,34 +2,87 @@
   "title": "Modify Chrome App Keybind",
   "rules": [
     {
+      "description": "[iTerm]⌘ + K To Next Tab/⌘ + J To Previous Tab",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": ["^com\\.googlecode\\.iterm2"]
+            }
+          ],
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": ["command"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "a",
+              "modifiers": {
+                "mandatory": ["caps_lock"],
+                "optional": ["any"]
+              }
+            },
+            {
+              "key_code": "k"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": ["^com\\.googlecode\\.iterm2"]
+            }
+          ],
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": ["command"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "a",
+              "modifiers": {
+                "mandatory": ["caps_lock"],
+                "optional": ["any"]
+              }
+            },
+            {
+              "key_code": "j"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
       "description": "Iterm2 kill pane",
       "manipulators": [
         {
           "conditions": [
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": [
-                "^com\\.googlecode\\.iterm2"
-              ]
+              "bundle_identifiers": ["^com\\.googlecode\\.iterm2"]
             }
           ],
           "from": {
             "key_code": "k",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ],
-              "optional": [
-                "any"
-              ]
+              "mandatory": ["command"],
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "a",
-              "modifiers": [
-               "control"
-              ],
+              "modifiers": ["control"],
               "lazy": true
             }
           ],
