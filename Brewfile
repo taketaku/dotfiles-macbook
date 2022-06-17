@@ -21,13 +21,13 @@ cask "google-japanese-ime"
 cask "iterm2"
 cask "karabiner-elements"
 cask "visual-studio-code"
-# cask "zoomus"
 cask "discord"
 cask "zeplin"
 cask "android-studio"
 cask "graphiql"
 cask "deepl"
 cask "microsoft-teams"
+# cask "zoomus" download: https://zoom.us/download
 
 mas "Slack", id: 803453959
 # mas "LINE", id: 539883307
