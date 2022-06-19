@@ -35,3 +35,4 @@ mas "Kindle", id: 405399194
 # mas "Key Codes", id: 414568915
 # mas "Xcode", id: 497799835
 # mas "PicGIF", id: 844918735
+mas "Craft", id: 1487937127
