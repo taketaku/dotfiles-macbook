@@ -10,3 +10,6 @@ ln -fns ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -fns ~/dotfiles/.config/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ln -fns ~/dotfiles/.config/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ln -fns ~/dotfiles/.config/vscode/tasks.json ~/Library/Application\ Support/Code/User/tasks.json
+
+# android studio
+ln -fns ~/dotfiles/.ideavimrc ~/.ideavimrc
