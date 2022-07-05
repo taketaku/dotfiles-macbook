@@ -1,5 +1,6 @@
 # Run brew bundle
 tap "heroku/brew"
+tap "leoafarias/fvm"
 
 brew "neovim", args: ["HEAD"]
 brew "mas"
@@ -12,6 +13,7 @@ brew "anyenv"
 brew "heroku"
 brew "git-lfs"
 brew "git-filter-repo"
+brew "fvm"
 
 cask "alfred"
 cask "docker"
@@ -26,7 +28,7 @@ cask "android-studio"
 cask "graphiql"
 cask "deepl"
 cask "microsoft-teams"
-cask "flutter"
+# cask "flutter"
 # cask "zoomus" download: https://zoom.us/download
 
 mas "Slack", id: 803453959

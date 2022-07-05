@@ -1,5 +1,5 @@
 set -x PATH $HOME/.anyenv/bin $PATH
-set -x PATH (pwd)/flutter/bin $PATH
+set -x PATH $HOME/fvm/default/bin $PATH
 
 set -U FZF_LEGACY_KEYBINDINGS 0
 
