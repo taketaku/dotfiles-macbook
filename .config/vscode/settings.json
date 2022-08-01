@@ -64,7 +64,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.cursorStyle": "line",
-  "editor.insertSpaces": false,
   "editor.lineNumbers": "on",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "editor.wordWrap": "off",
@@ -72,5 +71,10 @@
   "json.maxItemsComputed": 50000,
   "editor.formatOnSave": true,
   "dart.debugExternalPackageLibraries": true,
-  "dart.debugSdkLibraries": true
+  "dart.debugSdkLibraries": true,
+  "editor.detectIndentation": false,
+  "[ruby]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "editor.renderWhitespace": "boundary"
 }
