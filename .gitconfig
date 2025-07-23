@@ -9,6 +9,7 @@
   br = branch
 [core]
   editor = vi
+	excludesFile = /Users/taketaku/.gitignore_global
 [push]
   default = current
 [github]

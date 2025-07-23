@@ -141,5 +141,9 @@
     "key": "d",
     "command": "explorer.newFolder",
     "when": "explorerViewletFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
   }
 ]

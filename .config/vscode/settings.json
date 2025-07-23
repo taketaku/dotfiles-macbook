@@ -9,7 +9,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.sideBar.location": "left",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "eslint.workingDirectories": [
     {
@@ -31,7 +31,6 @@
     "**/.dist/**": true,
     "**/node_modules/*/**": true
   },
-  "editor.tabSize": 2,
   "terraform.indexing": {
     "enabled": false,
     "liveIndexing": false,
@@ -51,9 +50,9 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
-  "dart.flutterSdkPath": "/Users/tt/flutter",
+  "dart.flutterSdkPath": "/Users/taketaku/flutter",
   "dart.openDevTools": "flutter",
   "vscode-neovim.neovimInitVimPaths.darwin": "/Users/tt/.config/nvim/init.vim",
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
@@ -67,14 +66,34 @@
   "editor.lineNumbers": "on",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "editor.wordWrap": "off",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "json.maxItemsComputed": 50000,
-  "editor.formatOnSave": true,
-  "dart.debugExternalPackageLibraries": true,
-  "dart.debugSdkLibraries": true,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
   "editor.detectIndentation": false,
   "[ruby]": {
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
   },
-  "editor.renderWhitespace": "boundary"
+  "editor.renderWhitespace": "boundary",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "githubPullRequests.pullBranch": "never",
+  "terminal.integrated.shellIntegration.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "svelte.enable-ts-plugin": true,
+  "sherlock.userId": "fec2b7d2-b815-470f-9af0-f53b49bea100",
+  "git.openRepositoryInParentFolders": "always",
+  "editor.tabSize": 2,
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "remote.autoForwardPortsSource": "hybrid",
+  "github.copilot.nextEditSuggestions.enabled": true
 }
