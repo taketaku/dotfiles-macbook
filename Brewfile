@@ -1,27 +1,22 @@
+# DO: brew bundle cleanup
+
 tap "leoafarias/fvm"
 
-brew "neovim", args: ["HEAD"]
-brew "mas"
+brew "neovim"
 brew "tig"
 brew "tmux"
 brew "fish"
 brew "peco"
 brew "tree"
-brew "anyenv"
+brew "mise"
 brew "git-filter-repo"
-brew "fvm" # insted of cask "flutter"
+brew "fvm" # instead of cask "flutter"
 brew "libyaml"
-brew 'azure-cli'
 
 cask "alfred"
 cask "firefox"
-cask "iterm2"
 cask "karabiner-elements"
 cask "discord"
 cask "figma"
-cask "graphiql"
-cask "deepl"
-cask "microsoft-teams"
-cask "zap"
-
-mas "Slack", id: 803453959
+cask "ghostty"
+cask "slack"

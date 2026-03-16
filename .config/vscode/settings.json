@@ -54,7 +54,7 @@
   },
   "dart.flutterSdkPath": "/Users/taketaku/flutter",
   "dart.openDevTools": "flutter",
-  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/tt/.config/nvim/init.vim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/taketaku/.config/nvim/init.vim",
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.useCtrlKeysForInsertMode": false,
   "vscode-neovim.useCtrlKeysForNormalMode": false,
@@ -78,9 +78,8 @@
     "strings": "on"
   },
   "editor.accessibilitySupport": "off",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
   "githubPullRequests.pullBranch": "never",
-  "terminal.integrated.shellIntegration.enabled": false,
   "github.copilot.editor.enableAutoCompletions": true,
   "svelte.enable-ts-plugin": true,
   "sherlock.userId": "fec2b7d2-b815-470f-9af0-f53b49bea100",
@@ -95,5 +94,9 @@
     "git show"
   ],
   "remote.autoForwardPortsSource": "hybrid",
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.startupEditor": "none",
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true
+  }
 }
