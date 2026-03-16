@@ -2,3 +2,5 @@
 *.env.fish
 *.backup
 Brewfile.lock.json
+.config/fish/fish_variables
+.config/karabiner/automatic_backups/
