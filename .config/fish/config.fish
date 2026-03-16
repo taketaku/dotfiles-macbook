@@ -1,9 +1,9 @@
-set -gx PATH $HOME/fvm/default/bin $PATH
-set -gx PATH $HOME/flutter/bin $PATH
+fish_add_path $HOME/fvm/default/bin
+fish_add_path $HOME/flutter/bin
 set -gx DOCKER_FILE_M2X_API Dockerfile.api.arm64
 source $HOME/.local/bin/env.fish
-set -gx PATH $PATH $HOME/Library/Android/sdk/platform-tools
-set -gx PATH $HOME/.local/bin $PATH
+fish_add_path $HOME/Library/Android/sdk/platform-tools
+fish_add_path $HOME/.local/bin
 
 set -g FZF_LEGACY_KEYBINDINGS 0
 

@@ -80,7 +80,6 @@
   "editor.accessibilitySupport": "off",
   "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
   "githubPullRequests.pullBranch": "never",
-  "terminal.integrated.shellIntegration.enabled": false,
   "github.copilot.editor.enableAutoCompletions": true,
   "svelte.enable-ts-plugin": true,
   "sherlock.userId": "fec2b7d2-b815-470f-9af0-f53b49bea100",

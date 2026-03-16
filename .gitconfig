@@ -8,7 +8,7 @@
   ci = commit -a -v
   br = branch
 [core]
-  editor = vi
+  editor = nvim
 	excludesFile = /Users/taketaku/.gitignore_global
 [push]
   default = current
