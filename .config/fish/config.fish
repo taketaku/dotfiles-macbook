@@ -1,13 +1,15 @@
-set -x PATH $HOME/fvm/default/bin $PATH
-set -x PATH $HOME/flutter/bin $PATH
-set -Ux DOCKER_FILE_M2X_API Dockerfile.api.arm64
+set -gx PATH $HOME/fvm/default/bin $PATH
+set -gx PATH $HOME/flutter/bin $PATH
+set -gx DOCKER_FILE_M2X_API Dockerfile.api.arm64
 source $HOME/.local/bin/env.fish
 set -gx PATH $PATH $HOME/Library/Android/sdk/platform-tools
-set -Ux PATH $HOME/.local/bin $PATH
+set -gx PATH $HOME/.local/bin $PATH
 
-set -U FZF_LEGACY_KEYBINDINGS 0
+set -g FZF_LEGACY_KEYBINDINGS 0
 
-tmux
+if status is-interactive; and not set -q TMUX; and not string match -q "vscode" $TERM_PROGRAM
+    tmux
+end
 
 # vi mode
 fish_vi_key_bindings

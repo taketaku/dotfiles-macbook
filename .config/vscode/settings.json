@@ -54,7 +54,7 @@
   },
   "dart.flutterSdkPath": "/Users/taketaku/flutter",
   "dart.openDevTools": "flutter",
-  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/tt/.config/nvim/init.vim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/taketaku/.config/nvim/init.vim",
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.useCtrlKeysForInsertMode": false,
   "vscode-neovim.useCtrlKeysForNormalMode": false,
