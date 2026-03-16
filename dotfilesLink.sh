@@ -2,6 +2,7 @@
 ln -fns ~/dotfiles/Brewfile ~/Brewfile
 ln -fns ~/dotfiles/.gitconfig ~/.gitconfig
 ln -fns ~/dotfiles/.config/fish ~/.config/fish
+ln -fns ~/dotfiles/.config/ghostty ~/.config/ghostty
 ln -fns ~/dotfiles/.config/nvim ~/.config/nvim
 ln -fns ~/dotfiles/.config/karabiner ~/.config/karabiner
 ln -fns ~/dotfiles/.tmux.conf ~/.tmux.conf

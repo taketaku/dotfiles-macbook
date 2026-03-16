@@ -78,7 +78,7 @@
     "strings": "on"
   },
   "editor.accessibilitySupport": "off",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
   "githubPullRequests.pullBranch": "never",
   "terminal.integrated.shellIntegration.enabled": false,
   "github.copilot.editor.enableAutoCompletions": true,
@@ -95,5 +95,9 @@
     "git show"
   ],
   "remote.autoForwardPortsSource": "hybrid",
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.startupEditor": "none",
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true
+  }
 }
