@@ -2,14 +2,15 @@
   name = taketaku
   email = vbvbsp48@gmail.com
 [alias]
-  co = checkout
-  fe = fetch
+  sw = switch
+  re = restore
   st = status
+  # -a: auto stage tracked files, -v: show diff in editor
   ci = commit -a -v
   br = branch
 [core]
   editor = nvim
-	excludesFile = /Users/taketaku/.gitignore_global
+	excludesFile = ~/.gitignore_global
 [push]
   default = current
 [github]

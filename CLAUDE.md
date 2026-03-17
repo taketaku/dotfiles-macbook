@@ -21,16 +21,14 @@ brew bundle cleanup
 
 ## Architecture
 
-- `dotfilesLink.sh` — Creates symlinks from this repo to `~/.config/`, `~/`, and `~/Library/Application Support/Code/User/` (for VSCode)
-- `Brewfile` — Homebrew package manifest (formulae + casks)
+- `dotfilesLink.sh` — Creates symlinks from this repo to `~/`, `~/.config/`, and `~/Library/Application Support/Code/User/` (for VSCode)
+- `home/` — Files symlinked to `~/` (Brewfile, .gitconfig, .gitignore_global, .tmux.conf, .ideavimrc)
 - `.config/fish/` — Fish shell config; uses vi key bindings, auto-launches tmux
 - `.config/nvim/init.vim` — Neovim configuration
 - `.config/karabiner/` — Karabiner-Elements key remapping
 - `.config/ghostty/config` — Ghostty terminal emulator config
 - `.config/vscode/` — VSCode settings, keybindings, tasks, and extension management
-- `.tmux.conf` — tmux configuration
-- `.gitconfig` — Git config with aliases (`co`, `fe`, `st`, `ci`, `br`) and AWS secrets detection patterns
-- `.ideavimrc` — IdeaVim (Android Studio) config
+- `home/hammerspoon/` — Hammerspoon config; cmd+space で Ghostty をトグル表示
 
 ## Key Details
 
