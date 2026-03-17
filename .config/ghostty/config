@@ -4,8 +4,3 @@ font-feature = "-liga"
 
 # TERM
 term = "xterm-256color"
-
-# 上からドロップダウン
-window-position-y = 0
-
-keybind = global:cmd+space=toggle_quick_terminal

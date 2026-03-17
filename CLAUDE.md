@@ -28,6 +28,7 @@ brew bundle cleanup
 - `.config/karabiner/` — Karabiner-Elements key remapping
 - `.config/ghostty/config` — Ghostty terminal emulator config
 - `.config/vscode/` — VSCode settings, keybindings, tasks, and extension management
+- `home/hammerspoon/` — Hammerspoon config; cmd+space で Ghostty をトグル表示
 
 ## Key Details
 

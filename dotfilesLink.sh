@@ -13,6 +13,9 @@ ln -fns ~/dotfiles/.config/ghostty ~/.config/ghostty
 ln -fns ~/dotfiles/.config/nvim ~/.config/nvim
 ln -fns ~/dotfiles/.config/karabiner ~/.config/karabiner
 
+# hammerspoon
+ln -fns ~/dotfiles/home/hammerspoon ~/.hammerspoon
+
 # vscode
 ln -fns ~/dotfiles/.config/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ln -fns ~/dotfiles/.config/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
