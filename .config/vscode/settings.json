@@ -52,9 +52,9 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
   },
-  "dart.flutterSdkPath": "/Users/taketaku/flutter",
+  "dart.flutterSdkPath": "${userHome}/flutter",
   "dart.openDevTools": "flutter",
-  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/taketaku/.config/nvim/init.vim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "${userHome}/.config/nvim/init.vim",
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.useCtrlKeysForInsertMode": false,
   "vscode-neovim.useCtrlKeysForNormalMode": false,
@@ -82,7 +82,6 @@
   "githubPullRequests.pullBranch": "never",
   "github.copilot.editor.enableAutoCompletions": true,
   "svelte.enable-ts-plugin": true,
-  "sherlock.userId": "fec2b7d2-b815-470f-9af0-f53b49bea100",
   "git.openRepositoryInParentFolders": "always",
   "editor.tabSize": 2,
   "roo-cline.allowedCommands": [

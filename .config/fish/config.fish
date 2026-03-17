@@ -27,7 +27,7 @@ string match -q "$TERM_PROGRAM" "vscode"
 and . (code --locate-shell-integration-path fish)
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/taketaku/Downloads/google-cloud-sdk/path.fish.inc' ]; . '/Users/taketaku/Downloads/google-cloud-sdk/path.fish.inc'; end
+if [ -f "$HOME/Downloads/google-cloud-sdk/path.fish.inc" ]; . "$HOME/Downloads/google-cloud-sdk/path.fish.inc"; end
 
 # Added by Antigravity
-fish_add_path /Users/taketaku/.antigravity/antigravity/bin
+fish_add_path $HOME/.antigravity/antigravity/bin

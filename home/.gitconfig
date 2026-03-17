@@ -9,7 +9,7 @@
   br = branch
 [core]
   editor = nvim
-	excludesFile = /Users/taketaku/.gitignore_global
+	excludesFile = ~/.gitignore_global
 [push]
   default = current
 [github]
