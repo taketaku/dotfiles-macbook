@@ -1,0 +1,6 @@
+
+
+
+tmux kill-session
+tmux kill-session -t セッション名
+
