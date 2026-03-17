@@ -21,9 +21,9 @@ function tmux_session_select
         # 既存セッション + 新規作成オプションを fzf で選択
         set -l result (begin; for s in $sessions; echo $s; end; echo "[new session]"; end | \
             fzf --prompt="tmux session> " --height=40% --reverse --multi \
-                --header="C-d: 削除  Space: 複数選択" \
+                --header="C-d: 削除  C-r: リネーム  Space: 複数選択" \
                 --bind="space:toggle" \
-                --expect=ctrl-d)
+                --expect=ctrl-d,ctrl-r)
 
         # fzf キャンセル時（Esc / ctrl-c）は何もしない
         if test (count $result) -eq 0
@@ -45,6 +45,17 @@ function tmux_session_select
                 end
             end
             # ループ先頭に戻り fzf を再表示
+            continue
+        else if test "$pressed_key" = ctrl-r
+            # リネームフロー（単一選択のみ）
+            set -l target $result[2]
+            if test "$target" = "[new session]"
+                continue
+            end
+            read -P "Rename session '$target' to: " new_name
+            if test -n "$new_name"
+                tmux rename-session -t "$target" "$new_name"
+            end
             continue
         end
 
