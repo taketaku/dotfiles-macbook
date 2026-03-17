@@ -1,13 +1,15 @@
 function tp --description "Create or switch tmux session"
-    if test (count $argv) -eq 0
-        echo "Usage: tp <session-name> [directory]"
-        return 1
-    end
-
-    set -l session_name $argv[1]
+    set -l session_name ""
     set -l directory ""
-    if test (count $argv) -ge 2
-        set directory $argv[2]
+
+    if test (count $argv) -eq 0
+        # 引数なし: カレントディレクトリ名をセッション名に
+        set session_name (basename (pwd))
+    else
+        set session_name $argv[1]
+        if test (count $argv) -ge 2
+            set directory $argv[2]
+        end
     end
 
     if tmux has-session -t "$session_name" 2>/dev/null

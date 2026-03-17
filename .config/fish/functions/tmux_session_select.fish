@@ -4,11 +4,16 @@ function tmux_session_select
     if test (count $sessions) -eq 0
         # セッションが無い場合は名前を入力して新規作成
         read -P "New session name: " session_name
-        if test -n "$session_name"
-            tmux new-session -s "$session_name"
-        else
-            tmux new-session
+        if test -z "$session_name"
+            set session_name (basename (pwd))
         end
+        tmux new-session -s "$session_name"
+        return
+    end
+
+    # fzf が無い場合はフォールバック
+    if not type -q fzf
+        tmux attach-session || tmux new-session -s (basename (pwd))
         return
     end
 
@@ -22,11 +27,10 @@ function tmux_session_select
 
     if test "$selection" = "[new session]"
         read -P "New session name: " session_name
-        if test -n "$session_name"
-            tmux new-session -s "$session_name"
-        else
-            tmux new-session
+        if test -z "$session_name"
+            set session_name (basename (pwd))
         end
+        tmux new-session -s "$session_name"
     else
         tmux attach-session -t "$selection"
     end
