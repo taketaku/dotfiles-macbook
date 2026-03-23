@@ -2,6 +2,7 @@
   name = taketaku
   email = vbvbsp48@gmail.com
 [alias]
+  co = checkout
   sw = switch
   re = restore
   st = status

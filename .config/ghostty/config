@@ -4,3 +4,6 @@ font-feature = "-liga"
 
 # TERM
 term = "xterm-256color"
+
+# Disable shell integration to prevent ↵ flicker on Enter
+shell-integration = none
