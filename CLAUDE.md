@@ -21,8 +21,9 @@ brew bundle cleanup
 
 ## Architecture
 
-- `dotfilesLink.sh` — Creates symlinks from this repo to `~/`, `~/.config/`, and `~/Library/Application Support/Code/User/` (for VSCode)
+- `dotfilesLink.sh` — Creates symlinks from this repo to `~/`, `~/.config/`, and `~/Library/Application Support/Code/User/` (for VSCode); also copies `fonts/*` into `~/Library/Fonts/`
 - `home/` — Files symlinked to `~/` (Brewfile, .gitconfig, .gitignore_global, .tmux.conf, .ideavimrc)
+- `fonts/` — TTF/OTF fonts copied (not symlinked — macOS ignores symlinked fonts) into `~/Library/Fonts/` by `dotfilesLink.sh`
 - `.config/fish/` — Fish shell config; uses vi key bindings, auto-launches tmux
 - `.config/nvim/init.vim` — Neovim configuration
 - `.config/karabiner/` — Karabiner-Elements key remapping

@@ -31,3 +31,7 @@ if [ -f "$HOME/Downloads/google-cloud-sdk/path.fish.inc" ]; . "$HOME/Downloads/g
 
 # Added by Antigravity
 fish_add_path $HOME/.antigravity/antigravity/bin
+/opt/homebrew/bin/brew shellenv | source
+
+# mise activation
+/opt/homebrew/bin/mise activate fish | source

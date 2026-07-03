@@ -18,3 +18,10 @@ ln -fns ~/dotfiles/.config/karabiner ~/.config/karabiner
 ln -fns ~/dotfiles/.config/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ln -fns ~/dotfiles/.config/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ln -fns ~/dotfiles/.config/vscode/tasks.json ~/Library/Application\ Support/Code/User/tasks.json
+
+# fonts/ -> ~/Library/Fonts/ (macOS ignores symlinked fonts, so copy)
+mkdir -p ~/Library/Fonts
+for f in ~/dotfiles/fonts/*.ttf ~/dotfiles/fonts/*.otf; do
+  [ -e "$f" ] || continue
+  cp -f "$f" ~/Library/Fonts/
+done

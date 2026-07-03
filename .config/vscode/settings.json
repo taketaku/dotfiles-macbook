@@ -97,5 +97,11 @@
   "workbench.startupEditor": "none",
   "chat.instructionsFilesLocations": {
     ".github/instructions": true
+  },
+  "svg.preview.background": "white",
+  "docker.extension.enableComposeLanguageServer": false,
+  "terminal.integrated.initialHintCopilotCli": false,
+  "github.copilot.enable": {
+    "*": false
   }
 }
