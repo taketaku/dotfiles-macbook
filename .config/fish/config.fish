@@ -7,10 +7,6 @@ fish_add_path $HOME/.local/bin
 
 set -g FZF_LEGACY_KEYBINDINGS 0
 
-if status is-interactive; and not set -q TMUX; and not string match -q "vscode" $TERM_PROGRAM
-    tmux_session_select
-end
-
 # vi mode
 fish_vi_key_bindings
 bind p fish_clipboard_paste

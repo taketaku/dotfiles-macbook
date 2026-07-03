@@ -4,7 +4,6 @@ tap "leoafarias/fvm"
 
 brew "neovim"
 brew "tig"
-brew "tmux"
 brew "fish"
 brew "peco"
 brew "fzf"
