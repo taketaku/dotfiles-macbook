@@ -1,0 +1,11 @@
+# herdr configuration
+# https://herdr.dev/docs/configuration/
+
+[keys]
+prefix = "ctrl+a"                 # tmux の C-a を維持
+new_tab = "prefix+t"              # tmux: t
+previous_tab = "prefix+shift+j"   # tmux: J
+next_tab = "prefix+shift+k"       # tmux: K
+
+[ui]
+agent_panel_sort = "spaces"

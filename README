@@ -1,6 +1,7 @@
+# dotfiles
 
+## herdr (terminal multiplexer for AI agents)
 
-
-tmux kill-session
-tmux kill-session -t セッション名
-
+- 起動 / 再接続: `herdr`
+- デタッチ: prefix (`ctrl+a`) + `q`  ※デタッチしてもエージェントは動き続ける
+- 設定: `~/.config/herdr/config.toml`（このリポジトリの `.config/herdr/config.toml` を symlink）

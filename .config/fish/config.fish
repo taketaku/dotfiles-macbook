@@ -7,10 +7,6 @@ fish_add_path $HOME/.local/bin
 
 set -g FZF_LEGACY_KEYBINDINGS 0
 
-if status is-interactive; and not set -q TMUX; and not string match -q "vscode" $TERM_PROGRAM
-    tmux_session_select
-end
-
 # vi mode
 fish_vi_key_bindings
 bind p fish_clipboard_paste
@@ -27,7 +23,11 @@ string match -q "$TERM_PROGRAM" "vscode"
 and . (code --locate-shell-integration-path fish)
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f "$HOME/Downloads/google-cloud-sdk/path.fish.inc" ]; . "$HOME/Downloads/google-cloud-sdk/path.fish.inc"; end
+if [ -f "$HOME/.local/share/google-cloud-sdk/path.fish.inc" ]; . "$HOME/.local/share/google-cloud-sdk/path.fish.inc"; end
 
 # Added by Antigravity
 fish_add_path $HOME/.antigravity/antigravity/bin
+/opt/homebrew/bin/brew shellenv | source
+
+# mise activation
+/opt/homebrew/bin/mise activate fish | source
